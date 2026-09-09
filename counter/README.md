@@ -6,7 +6,7 @@ this backend has no Sites or OpenAI service dependency.
 GET /spins returns `{ "count": 0 }`. POST /spins accepts `{ "id": "<UUID v4>" }`.
 The client samples one in eight completed rolls and sends `weight: 8`; a single
 SQL update increments the statistical shared total atomically. Legacy tabs omit
-the weight and continue to increment by one. No user accounts, IPs, spin IDs, or food
+the weight and continue to increment by one. No user accounts, IPs, spin IDs, or
 selections are stored on the active path. This is an anonymous activity counter,
 not a fraud-proof analytics system. Historical spins are not available.
 The browser sends JSON bytes with the CORS-safelisted `text/plain` content type,
