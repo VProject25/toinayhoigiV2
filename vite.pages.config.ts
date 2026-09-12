@@ -6,8 +6,8 @@ import { fileURLToPath } from 'node:url';
 
 // GitHub Pages project site: https://<user>.github.io/<repo>/
 // Đổi REPO_NAME cho khớp tên repo của bạn (giữ credit/API của nagisanzenin).
-const REPO_NAME = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'toinayxemgi';
-const base = `/${REPO_NAME}/`;
+const toinayhoigiV2 = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'toinayhoigi';
+const base = `/${toinayhoigiV2}/`;
 
 export default defineConfig({
   base,
