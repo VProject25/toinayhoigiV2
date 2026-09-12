@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Tối nay xem gì',
-  description: 'Tối nay xem gì — mở hòm chọn diễn viên.',
+  title: 'Tối nay hỏi gì',
+  description: 'Tối nay hỏi gì — mở hòm chọn câu hỏi.',
 };
 
 export default function RootLayout({
